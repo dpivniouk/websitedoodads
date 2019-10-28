@@ -1,0 +1,54 @@
+.eyeballbase{
+	height:100%;
+	display:block;
+	z-index:3;
+}
+
+.eyeballiris{
+	height:100%;
+	display:block;
+	z-index:4;
+}
+
+.eyeballshadow{
+	height:100%;
+	display:block;	
+	z-index:5;
+}
+
+.eyeballpupil{
+	height:100%;
+	display:block;
+	z-index:6;
+}
+
+.eyeballoutline{
+	height:100%;
+	display:block;
+	z-index:7;
+}
+
+.eyeballblocking{
+	height:100%;
+	display:block;
+	z-index:8;
+}
+
+.eyeballlashes{
+	height:100%;
+	display:block;
+	z-index:9;
+}
+
+.movingeye{
+	max-width:240px;
+	height:170px;
+	position:fixed;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:center;
+	z-index:3;
+	user-select:none;
+	-webkit-user-select:none;
+}
